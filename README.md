@@ -82,5 +82,5 @@ Asma Sirkhot
 
 Datascientist | Machine Learning Enthusiast
 
-🔗 LinkedIn:https://www.linkedin.com/in/asma-sirkhot-85b841362
+🔗 LinkedIn: https://www.linkedin.com/in/asma-sirkhot-85b841362/details/projects/
 
