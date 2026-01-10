@@ -15,7 +15,7 @@ st.set_page_config(
     page_title="Spam Detector",
     page_icon="📩"
 )
-
+st.title("📩 Spam Detection App")
 
 # LOAD NLTK STOPWORDS (SAFE FOR CLOUD)
 
@@ -69,3 +69,4 @@ if st.button("Check"):
 # FOOTER
 st.markdown("---")
 st.caption("Built using NLP, Naive Bayes & Streamlit")
+
