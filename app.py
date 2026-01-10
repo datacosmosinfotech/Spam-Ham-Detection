@@ -1,3 +1,5 @@
+
+# IMPORTS
 import streamlit as st
 import pickle
 import string
@@ -6,23 +8,38 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
-# Download stopwords (run once)
-nltk.download('stopwords')
 
-# Load model & vectorizer
+# STREAMLIT PAGE CONFIG (MUST BE FIRST st CALL)
+
+st.set_page_config(
+    page_title="Spam Detector",
+    page_icon="📩"
+)
+
+
+# LOAD NLTK STOPWORDS (SAFE FOR CLOUD)
+
+try:
+    stopwords_set = set(stopwords.words('english'))
+except LookupError:
+    nltk.download('stopwords')
+    stopwords_set = set(stopwords.words('english'))
+
+
+# LOAD MODEL & VECTORIZER
+
 with open("spam_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 with open("vectorizer.pkl", "rb") as f:
     vectorizer = pickle.load(f)
 
-# Preprocessing tools
-stemmer = PorterStemmer()
-stopwords_set = set(stopwords.words('english'))
 
-# App UI
-st.set_page_config(page_title="Spam Detector", page_icon="📩")
-st.title("📩 Spam Detection App")
+# PREPROCESSING TOOLS
+
+stemmer = PorterStemmer()
+
+# STREAMLIT UI
 
 st.write("Enter a message below to check whether it is *Spam* or *Not Spam*.")
 
@@ -48,6 +65,7 @@ if st.button("Check"):
         else:
             st.success("✅ Not Spam")
 
-# Footer
+
+# FOOTER
 st.markdown("---")
 st.caption("Built using NLP, Naive Bayes & Streamlit")
