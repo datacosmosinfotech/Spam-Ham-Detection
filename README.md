@@ -1,4 +1,4 @@
-# 📧 Spam Ham Detection System
+# 📧 Spam Ham Detection App
 
 ## 📌 Project Overview
 Spam messages and fraudulent communications have become increasingly common, posing risks to users and organizations. This project focuses on building a machine learning–based Spam–Ham Detection System that automatically classifies messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques.
@@ -15,11 +15,13 @@ A short walkthrough demonstrating:
 App interface
 Message input
 Spam/Ham prediction output
+
 🔗 Demo Video:
 https://drive.google.com/file/d/1nhi20dkatNtQy612IOfTJtTlk1z7RYKN/view?usp=drive_link
 
 ## 🌐Interactive Streamlit Web App
 The project is deployed using Streamlit for easy interaction.
+
 🔗 Live App:
 https://spam-ham-detection-cnwdfs3knxtqvx2ud6akwj.streamlit.app/
 
@@ -55,19 +57,30 @@ Pickle
 Streamlit
 
 ## 💡 Use Cases
+
 Email spam filtering
+
 SMS fraud detection
+
 Message moderation systems
+
 Awareness and security applications
 
 ## 🔮 Future Scope
+
 Improve accuracy using advanced NLP techniques
+
 Add multilingual spam detection
+
 Deploy as a REST API
+
 Integrate with real time messaging platforms
 
 ## 👩‍💻 Author
+
 Asma Sirkhot
-Datascientist | Machine Learning 
+
+Datascientist | Machine Learning Enthusiast
+
 🔗 LinkedIn:https://www.linkedin.com/in/asma-sirkhot-85b841362
-🔗 LinkedIn: (add your LinkedIn link)
+
