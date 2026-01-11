@@ -1,7 +1,7 @@
 # 📧 Spam Ham Detection App
 
 ## 📌 Project Overview
-Spam messages and fraudulent communications have become increasingly common, posing risks to users and organizations. This project focuses on building a machine learning–based Spam–Ham Detection System that automatically classifies messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques.
+Spam messages and fraudulent communications have become increasingly common, posing risks to users and organizations. This project focuses on building a machine learning based Spam–Ham Detection System that automatically classifies messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques.
 
 ## Preview
 ![Spam Ham Detection Screenshot](https://raw.githubusercontent.com/datacosmosinfotech/Spam-Ham-Detection/main/Spam%20Ham%20Detection%20SS.png)
@@ -9,21 +9,20 @@ Spam messages and fraudulent communications have become increasingly common, pos
 ## 🔗 Dataset Link:
 https://drive.google.com/file/d/15WmG_ijChneg5YVrpyLebQ-nqPPE-w26/view?usp=drive_link
 
+## 🌐Interactive Streamlit Web App
+The project is deployed using Streamlit for easy interaction.
+
+## 🔗 Live App:
+https://spam-ham-detection-cnwdfs3knxtqvx2ud6akwj.streamlit.app/
+
 ## 🎥 Walking Demo
 
 A short walkthrough demonstrating:
 App interface
 Message input
 Spam/Ham prediction output
-
-🔗 Demo Video:
+## 🔗 Demo Video:
 https://drive.google.com/file/d/1nhi20dkatNtQy612IOfTJtTlk1z7RYKN/view?usp=drive_link
-
-## 🌐Interactive Streamlit Web App
-The project is deployed using Streamlit for easy interaction.
-
-🔗 Live App:
-https://spam-ham-detection-cnwdfs3knxtqvx2ud6akwj.streamlit.app/
 
 ## 🎯 Objectives
 Automatically classify text messages as Spam or Ham
@@ -42,6 +41,20 @@ Feature extraction using vectorization
 Model training on labeled data
 
 Real time prediction through a web app
+
+interface
+
+## 🎯 Key Features
+
+User friendly text input interface
+
+Real time spam prediction
+
+Clear classification output (Spam / Not Spam)
+
+Lightweight and fast inference
+
+Production ready Streamlit deployment
 
 ## 🛠️ Tools & Technologies Used
 Python
