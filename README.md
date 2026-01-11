@@ -1,7 +1,9 @@
 # 📧 Spam Ham Detection App
 
 ## 📌 Project Overview
-Spam messages and fraudulent communications have become increasingly common, posing risks to users and organizations. This project focuses on building a machine learning based Spam–Ham Detection System that automatically classifies messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) techniques.
+An NLP-based machine learning application designed to detect spam messages in real time. 
+Deployed using Streamlit, the system enables users to input text and instantly receive Spam or Not Spam predictions,
+demonstrating practical applicability in real world spam filtering scenarios.
 
 ## Preview
 ![Spam Ham Detection Screenshot](https://raw.githubusercontent.com/datacosmosinfotech/Spam-Ham-Detection/main/Spam%20Ham%20Detection%20SS.png)
