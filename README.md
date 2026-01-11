@@ -1,9 +1,9 @@
 # 📧 Spam Ham Detection App
 
 ## 📌 Project Overview
-An NLP-based machine learning application designed to detect spam messages in real time. 
-Deployed using Streamlit, the system enables users to input text and instantly receive Spam or Not Spam predictions,
-demonstrating practical applicability in real world spam filtering scenarios.
+An NLP based Spam Detection application built using TF-IDF vectorization and a Naive Bayes classifier,
+deployed as a Streamlit web app that allows users to input messages and instantly receive Spam or Not Spam predictions through an interactive web interface,
+making it suitable for real world spam filtering use cases.
 
 ## Preview
 ![Spam Ham Detection Screenshot](https://raw.githubusercontent.com/datacosmosinfotech/Spam-Ham-Detection/main/Spam%20Ham%20Detection%20SS.png)
