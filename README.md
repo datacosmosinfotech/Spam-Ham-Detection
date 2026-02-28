@@ -95,7 +95,7 @@ Integrate with real time messaging platforms
 
 Asma Sirkhot
 
-Datascientist | Machine Learning Enthusiast
+Data Scientist | Machine Learning Enthusiast
 
 🔗 LinkedIn: https://www.linkedin.com/in/asma-sirkhot-85b841362/details/projects/
 
